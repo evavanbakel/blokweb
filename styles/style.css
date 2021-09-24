@@ -225,7 +225,7 @@ p:last-of-type{
 footer section:first-of-type{
     background-color: black;
     background-image: none;
-    height: 25em;
+    height: 15em;
     width: auto;
 }
 
@@ -238,6 +238,7 @@ footer p{
     top: 7em;
     font-size: .555em;
     color: #c2ccce;
+    line-height: 1.3em;
 }
 
 footer section ul{
