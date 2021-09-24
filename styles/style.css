@@ -216,17 +216,17 @@ h2{
     font-weight: bold;
 }
 
+/*------ tweede regels p tekstjes  per afb ------*/
 p:last-of-type{
     bottom: -2em;
 }
+
 
 footer section:first-of-type{
     background-color: black;
     background-image: none;
     height: 25em;
     width: auto;
-    
-
 }
 
 footer h2{
