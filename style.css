@@ -1,0 +1,246 @@
+/* 
+BRON CSS RESET
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*----------------------------------------------*/
+
+/* CSS Document */
+*, *::after, *::before {
+    box-sizing:border-box;
+
+  }
+
+:root {
+    --text-color:white;
+    --bg-color:black; 
+    --button-color: #d55140;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+section{
+    position: relative;
+    
+}
+
+.nachtwacht {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    background-position: top center;
+    background-size: cover;
+}
+
+.meisjehoed {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    background-position: top center;
+    background-size: cover;
+}
+
+.vrouwkijkt {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    background-position: top center;
+    background-size: cover;
+}
+
+.stoel {
+    height: 50vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    background-position: top center;
+    background-size: cover;
+}
+
+.bekijkennachtwacht {
+    height: 50vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    background-position: top center;
+    background-size: cover;
+}
+
+.manblauwgeel {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    background-position: top center;
+    background-size: cover;
+}
+
+.manblauwgeel > p:first-of-type{
+    bottom: 6em;
+    font-size: .3em;
+    padding: .4em;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    margin-left: 2em;
+    border-radius: 3%;
+    font-weight: bold;
+
+}
+
+.bos {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    background-position: top center;
+    background-size: cover;
+}
+/*---------nachtwacht 1 --------*/
+section:first-of-type {
+    background-image: url(../images/nachtwacht1.webp);    
+}
+
+/*-------meisje met hoed 2 ---------*/
+section:nth-of-type(2){
+    background-image: url(../images/meisje2.webp);
+}
+
+/*---- vrouw wijst schilderij aan----*/
+section:nth-of-type(3){
+    background-image: url(../images/schilderij3.webp);
+}
+
+/*--------- stoel kunstwerk ---------*/
+section:nth-of-type(4){
+    background-image: url(../images/schilderijstoel.webp);
+}
+
+/*------ meisje kijkt naar schilderij -------*/
+section:nth-of-type(5){
+    background-image: url(../images/meisje.webp);
+}
+
+/*----- man kunstwerk blauw geel -------*/
+section:nth-of-type(6){
+    background-image: url(../images/man.webp);
+}
+
+/*----------- bos kunstwerk -----------*/
+section:nth-of-type(7){
+    background-image: url(../images/natuur.webp);
+}
+
+/*------- Rijksmuseum titel*/
+h1{
+    position: absolute;
+    font-size: 1.6em;
+    color: var(--text-color);
+    z-index: 1;
+    margin-top: 1.5em;
+    margin-left: .5em;
+    
+}
+
+/*------ Tickets button -------*/
+button {
+    position: absolute;
+    z-index: 1;
+    right: 1.3em;
+    top: 1em;
+    background: var(--button-color);
+    padding: 1em;
+    font-size: .5em;
+    color: var(--text-color);
+    border: none;
+}
+
+/*--------------- tekstblokjes en kleur-----------------*/
+p {
+    color: var(--text-color);
+    margin-bottom: 4.3em;
+    position: absolute;
+    margin-left: 1.3em;
+    font-size: .45em;
+}
+
+/*------ Dikgedrukte  ------*/
+h2{
+    position: absolute;
+    bottom: 4em;
+    color: var(--text-color);
+    font-size: .5em;
+    margin-left: 1.3em;
+    font-weight: bold;
+}
+
+p:last-of-type{
+    bottom: -2em;
+}
+
+footer section:first-of-type{
+    background-color: black;
+    background-image: none;
+    height: 25em;
+    width: auto;
+    
+
+}
+
+footer h2{
+    top: 5em;
+    font-size: .55em;
+}
+
+footer p{
+    top: 7em;
+    font-size: .555em;
+    color: #c2ccce;
+}
+
+footer section ul{
+    color: #c2ccce;
+    font-size: .5em;
+}
