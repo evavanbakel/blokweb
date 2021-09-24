@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Eva van Bakel
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-Blauw
+hier je startniveau (kies uit zwart, rood óf blauw)
 
 #### Je focus:
--
+hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,17 +36,16 @@ Blauw
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.rijksmuseum.nl/en
- 
-#### Screenshot(s) van de eerste pagina (small screen): 
-homepage
-![homepage](https://user-images.githubusercontent.com/90251004/133243217-1fbbbfb8-3f6e-444c-a201-c7ad9412b849.png)
+link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
+#### Screenshot(s) van de eerste pagina (small screen): 
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-visitpage
- ![visitpage](https://user-images.githubusercontent.com/90251004/133240229-9288aecc-615c-4a4d-b436-06a1e7962172.png)
-
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ 
 </details>
 
 
