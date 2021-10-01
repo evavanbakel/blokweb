@@ -285,7 +285,7 @@ footer p{
     line-height: 1.3em;
 }
 
-.voorpagina ul {
+ul {
     color: #c2ccce;
     font-size: .5em;
     margin-top: 10em;
@@ -293,7 +293,7 @@ footer p{
     margin-bottom: 3em;
 }
 
-.voorpagina footer ul li{
+footer ul li{
     margin: 2em;
 }
 
