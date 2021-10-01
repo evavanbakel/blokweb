@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Eva van Bakel">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Rijksmuseum</title>
@@ -12,21 +12,24 @@
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body>
+<body class="voorpagina">
 	<header>
 		<nav>
-			<img src="images/white-menu-icon-png-18.jpeg" alt="burgermenu">
-			<img src="images/vergrootglas.png" alt="vergrootglas zoek icon">
-			<button>Tickets</button>
+			<button><img src="images/white-menu-icon-png-18.jpeg" alt="burgermenu"></button>
+			<button><img src="images/vergrootglas.png" alt="vergrootglas zoek icon"></button>
+			<form action="tickets.html">
+				<button type="submit">Tickets</button>
+			</form>
 		</nav>
 	</header>
 	<main>
 		<img src="images/rijksmuseumwit.png" alt="logo van het Rijksmuseum">
-
+		
 		<section class="nachtwacht">
 			<h2>OPERATION NIGHT WATCH</h2>
 			<p>Follow the research and conservation project</p>
 		</section>
+		
 		<section class="meisjehoed">
 			<h2>EXPECTED: REMEMBER ME</h2>
 			<p>Ticket sale starts the 17th of september</p>
@@ -54,21 +57,19 @@
 		<script src="scripts/script.js"></script>
 	</main>
 	<footer>
-		<section>
-			<h2>
-				VISITOR INFORMATION
-			</h2>
-			<p>
-				Open daily 9h to 17th <br>
-				Museumstraat 1,Amsterdam
-			</p>
-			<ul>
-				<li>About us</li>
-				<li>Press</li>
-				<li>Careers</li>
-				<li>Contact</li>
-			</ul>
-		</section>
+		<h2>
+			VISITOR INFORMATION
+		</h2>
+		<p>
+			Open daily 9h to 17th <br>
+			Museumstraat 1,Amsterdam
+		</p>
+		<ul>
+			<li><a href="">About us</a></li>
+			<li><a href=""> Press</a></li>
+			<li><a href=""> Careers</a></li>
+			<li><a href=""> Contact</a></li>
+		</ul>
 	</footer>
 </body>
 
