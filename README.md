@@ -16,10 +16,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Eva van Bakel
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+blauw
 
 #### Je focus:
 hier je focus (kies uit responsive óf surface plane)
@@ -36,15 +36,15 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.rijksmuseum.nl/en
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+home pagina  
+<img src=".../images/homepage.png" width="375px" alt="homepagina van rijksmuseum">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="../images/ticketspagina.png" width="375px" alt="tickets van het rijksmuseum pagina">
  
 </details>
 
@@ -58,7 +58,7 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -78,7 +78,7 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het plaatsen van de images; tussen elk plaatje kwam er een witte regel te staan,  na hulp te vragen heb ik dit anders kunnen oplossen door de sections een background te geven inplaats van images in de sections te plaatsen. Ook wist ik niet of een site zonder H1 toegestaan was maar na fb kwam ik erachter dat dit mocht zodat ik de logo er gewoon in kan plaatsen. 
 
 
 ### Agenda voor meeting
@@ -94,10 +94,7 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Als feedback kreeg ik te horen dat ik meer aan het vak moest werken. 
 
 </details>
 
