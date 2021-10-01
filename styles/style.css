@@ -267,18 +267,18 @@ p:last-of-type{
     bottom: -2em;
 }
 
-.voorpagina footer{
+footer{
     background-color: black;
     position: relative;
 
 }
 
-.voorpagina footer h2:first-of-type{
+footer h2:first-of-type{
     top: 2em;
     font-size: .55em;
 }
 
-.voorpagina footer p{
+footer p{
     top: 4em;
     font-size: .555em;
     color: #c2ccce;
@@ -293,7 +293,7 @@ p:last-of-type{
     margin-bottom: 3em;
 }
 
-.voorpaginafooter ul li{
+.voorpagina footer ul li{
     margin: 2em;
 }
 
