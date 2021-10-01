@@ -267,18 +267,18 @@ p:last-of-type{
     bottom: -2em;
 }
 
-footer{
+.voorpagina footer{
     background-color: black;
     position: relative;
 
 }
 
-footer h2{
+.voorpagina footer h2{
     top: 2em;
     font-size: .55em;
 }
 
-footer p{
+.voorpagina footer p{
     top: 4em;
     font-size: .555em;
     color: #c2ccce;
