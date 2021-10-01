@@ -273,7 +273,7 @@ p:last-of-type{
 
 }
 
-.voorpagina footer h2{
+.voorpagina footer h2:first-of-type{
     top: 2em;
     font-size: .55em;
 }
