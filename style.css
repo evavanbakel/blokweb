@@ -1,5 +1,5 @@
 /* 
-BRON CSS RESET
+BRON CSS RESET - zodat alle waardes op 0 zijn; hierdoor heb je meer mogelijkheden voor opmaak
 http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,6 +47,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /*----------------------------------------------*/
 
 /* CSS Document */
@@ -64,6 +65,7 @@ table {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
+    background-color: #40474f;
 }
 
 section{
@@ -71,10 +73,46 @@ section{
     
 }
 
+/*--------burger menu BRON: https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-library.com%2Ficon%2Fwhite-hamburger-menu-icon-24.html&psig=AOvVaw0seRu6IPdSyna4K_NWCEKo&ust=1632580091840000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDH0vbol_MCFQAAAAAdAAAAABAD---------*/
+button img {
+    width: 4em;
+    height: 4em;
+
+}
+
+button:first-of-type{
+    position: absolute;
+    z-index: 1;
+    margin-left: .5em;
+    margin-top: .4em;
+    background: none;
+    border: none;
+    padding: .3em;
+   
+}
+
+button:first-of-type:hover {
+    background: var(--bg-color);
+}
+/*----- vergrootglas zoek icon BRON: https://commons.wikimedia.org/wiki/File:VisualEditor_-_Icon_-_Search-big_-_white.svg----*/ 
+
+
+button:nth-of-type(2){
+    position: absolute;
+    z-index: 1;
+    margin-left: 3.5em;
+    margin-top: .7em;
+    background: none;
+    border: none;
+}
+
+button:nth-of-type(2):hover {
+    background: var(--bg-color);
+}
+/*----- afbeeldingen achtergrond ------*/
 .nachtwacht {
     height: 100vh;
     width: 100%;
-    background-color: var(--bg-color);
     background-position: top center;
     background-size: cover;
 }
@@ -82,7 +120,6 @@ section{
 .meisjehoed {
     height: 100vh;
     width: 100%;
-    background-color: var(--bg-color);
     background-position: top center;
     background-size: cover;
 }
@@ -90,15 +127,13 @@ section{
 .vrouwkijkt {
     height: 100vh;
     width: 100%;
-    background-color: var(--bg-color);
     background-position: top center;
     background-size: cover;
 }
 
 .stoel {
     height: 50vh;
-    width: 100%;
-    background-color: var(--bg-color);
+    max-width: 100%;
     background-position: top center;
     background-size: cover;
 }
@@ -106,7 +141,6 @@ section{
 .bekijkennachtwacht {
     height: 50vh;
     width: 100%;
-    background-color: var(--bg-color);
     background-position: top center;
     background-size: cover;
 }
@@ -114,7 +148,6 @@ section{
 .manblauwgeel {
     height: 100vh;
     width: 100%;
-    background-color: var(--bg-color);
     background-position: top center;
     background-size: cover;
 }
@@ -134,27 +167,31 @@ section{
 .bos {
     height: 100vh;
     width: 100%;
-    background-color: var(--bg-color);
     background-position: top center;
     background-size: cover;
 }
 /*---------nachtwacht 1 --------*/
-section:first-of-type {
+.voorpagina section:first-of-type {
     background-image: url(../images/nachtwacht1.webp);    
 }
 
 /*-------meisje met hoed 2 ---------*/
-section:nth-of-type(2){
+.voorpagina section:nth-of-type(2){
     background-image: url(../images/meisje2.webp);
 }
 
+.voorpagina section:nth-of-type(2):hover {
+    background-size: 110% ;
+    transition: 1s;
+}
+
 /*---- vrouw wijst schilderij aan----*/
-section:nth-of-type(3){
+.voorpagina section:nth-of-type(3){
     background-image: url(../images/schilderij3.webp);
 }
 
 /*--------- stoel kunstwerk ---------*/
-section:nth-of-type(4){
+.voorpagina section:nth-of-type(4){
     background-image: url(../images/schilderijstoel.webp);
 }
 
@@ -164,28 +201,31 @@ section:nth-of-type(5){
 }
 
 /*----- man kunstwerk blauw geel -------*/
-section:nth-of-type(6){
+.voorpagina section:nth-of-type(6){
     background-image: url(../images/man.webp);
 }
 
 /*----------- bos kunstwerk -----------*/
-section:nth-of-type(7){
+.voorpagina section:nth-of-type(7){
     background-image: url(../images/natuur.webp);
 }
 
-/*------- Rijksmuseum titel*/
-h1{
+/*------- Rijksmuseum logo-------*/
+.voorpagina main img:first-of-type{
     position: absolute;
-    font-size: 1.6em;
-    color: var(--text-color);
     z-index: 1;
-    margin-top: 1.5em;
-    margin-left: .5em;
-    
+    margin-top: 2.8em;
+    margin-left: .6em;
+    height: 1.4em;
+}
+img {
+    height: 100%;
+    object-fit: cover;
+    max-width: 100vh;
 }
 
 /*------ Tickets button -------*/
-button {
+form button:first-of-type {
     position: absolute;
     z-index: 1;
     right: 1.3em;
@@ -197,6 +237,12 @@ button {
     border: none;
 }
 
+form button:first-of-type:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    transform: var(--text-color);
+}
+
 /*--------------- tekstblokjes en kleur-----------------*/
 p {
     color: var(--text-color);
@@ -206,7 +252,7 @@ p {
     font-size: .45em;
 }
 
-/*------ Dikgedrukte  ------*/
+/*------ Dikgedrukte  regels per afb ------*/
 h2{
     position: absolute;
     bottom: 4em;
@@ -216,31 +262,109 @@ h2{
     font-weight: bold;
 }
 
+/*------ tweede regels p tekstjes  per afb ------*/
 p:last-of-type{
     bottom: -2em;
 }
 
-footer section:first-of-type{
+.voorpagina footer{
     background-color: black;
-    background-image: none;
-    height: 25em;
-    width: auto;
-    
+    position: relative;
 
 }
 
-footer h2{
-    top: 5em;
+.voorpagina footer h2:first-of-type{
+    top: 2em;
     font-size: .55em;
 }
 
-footer p{
-    top: 7em;
+.voorpagina footer p{
+    top: 4em;
     font-size: .555em;
     color: #c2ccce;
+    line-height: 1.3em;
 }
 
-footer section ul{
+.voorpagina ul {
     color: #c2ccce;
     font-size: .5em;
+    margin-top: 10em;
+    position: absolute;
+    margin-bottom: 3em;
+}
+
+.voorpaginafooter ul li{
+    margin: 2em;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--text-color);
+
+}
+/*--------- tickets pagina --------*/
+
+.tickets main img {
+   width: 100%;
+   height: 50vh;
+   object-fit: cover;
+   background-position: top center;
+}
+
+.tickets section:first-of-type ul {
+    display: flex;
+    overflow: auto;
+    font-size: .6em;
+    color: var(--text-color);
+    background-image: none;
+}
+
+.tickets li {
+    flex-shrink: 0;
+    margin-left: 1em;
+    padding: 1em;
+    overflow-x: hidden;
+
+}
+
+
+.tickets section:nth-of-type(2) ul{
+    color: var(--text-color);
+    font-size: .5em;
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 1em;
+}
+
+.tickets section:nth-of-type(2) li{
+    padding: .5em;
+    list-style-image: url("/images/vink.png");
+    margin-left: 3em;
+    z-index: 1;
+}
+
+.tickets section:nth-of-type(2) h2 {
+    position: absolute;
+    top: 2em;
+    left: 1em;
+}
+
+.tickets section:nth-of-type(3){
+    background-color: rgb(71, 69, 69);
+}
+/*--??? grid fixen---*/
+.tickets section:nth-of-type(3) ul{
+    display: grid;
+    font-size: .5em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:var(--text-color);
+    margin-top: 30em;
+
+
+}
+
+.tickets section:nth-of-type(3) h2:first-of-type {
+    position: absolute;
+    left: 1em;
 }
