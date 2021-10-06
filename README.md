@@ -22,8 +22,7 @@ Eva van Bakel
 blauw
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
- 
+surface plane
 </details>
 
 
@@ -43,7 +42,7 @@ home pagina
 <img src=".../images/homepage.png" width="375px" alt="homepagina van rijksmuseum">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+tickets pagina 
 <img src="../images/ticketspagina.png" width="375px" alt="tickets van het rijksmuseum pagina">
  
 </details>
@@ -59,12 +58,6 @@ hier de naam van de pagina
 
 ### de hele pagina: 
 <img src="images/breakdown.png" width="375px" alt="breakdown van de hele pagina">
-
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -108,7 +101,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Door HCI had ik niet al te veel kunnen doen. Ik heb hier uiteindelijk toch 
+aan kunnen werken
 
 
 ### Agenda voor meeting
