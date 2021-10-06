@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,45 +12,104 @@
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body class="tickets">
+<body>
     <header>
         <nav>
-            <button><img src="images/white-menu-icon-png-18.jpeg" alt="burgermenu"></button>
-            <button><img src="images/vergrootglas.png" alt="vergrootglas zoek icon"></button>
-            <form action="tickets.html">
-                <button type="submit">Tickets</button>
-            </form>
+            <ul>
+                <li><a href=""><img src="../images/white-menu-icon-png-18.jpeg" alt=""></a></li>
+                <li><a href=""><img src="../images/vergrootglas.png" alt=""></a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+				<li><a href=""><img src="/images/sun.png" alt="" onClick="lightMode()"></a></li>
+        </ul>
         </nav>
     </header>
-    <main>
-        <img src="images/moederdochter.jpeg" alt="moeder kijkt me haar dochter naar een kunstwerk">
+    <main class="tickets">
         <section>
+            <img src="../images/moederdochter.jpeg" alt="moeder kijkt me haar dochter naar een kunstwerk">
             <ul>
-                <li>TICKETS</li>
-                <li>OPTIES EXTRA</li>
-                <li>PERSOONSGEGEVENS</li>
-                <li>OVERZICHT EN BETALEN</li>
+                <li>1. TICKETS</li>
+                <li>2. EXTRA OPTIONS</li>
+                <li>3. DETAILS</li>
+                <li>4. SUMMARY AND PAY</li>
             </ul>
         </section>
         <section>
-            <h2>KOOP ONLINE JE TICKETS VOOR HET RIJKSMUSEUM</h2>
+            <h3>BOOK YOUR TICKETS FOR THE RIJKSMUSEUM ONLINE</h3>
             <ul>
-                <li>Een veilig bezoek zonder coronapas</li>
-                <li>Twee hoofdroutes langs 'het beste van het Rijksmuseum'</li>
-                <li>Geniet direct van de grote meesters als Rembrandt, Vermeer en Van Gogh</li>
+                <li>Visit the Rijksmuseum safely</li>
+                <li>Enjoy the the Dutch masters in a quiet museum</li>
+                <li>Directly go to the great masters such as Rembrandt, Vermeer en Van Gogh</li>
             </ul>
         </section>
         <section>
-            <h2>TICKET(S) VOOR HET HELE MUSEUM</h2>
+            <h3>SELECT YOUR MUSEUM TICKET(S) HERE</h3>
             <ul>
-                <li>Aantal</li>
-                <li>Subtotaal</li>
+                <li>Number</li>
+                <li>Subtotal</li>
             </ul>
         </section>
+        <section>
+            <ul>
+                <li>Entrance adult
+                    € 20.00</li>
+                <li><button>-</button></li>
+                <li>0</li>
+                <li><button>+</button></li>
+                <li>€0.00</li>
+            </ul>
+            <ul>
+                <li>Entrance ages 18 and under Free</li>
+                <li><button>-</button></li>
+                <li>0</li>
+                <li><button>+</button></li>
+                <li>€0.00</li>
+            </ul>
+            <ul>
+                <li>Entrance EYCA card € 10.00</li>
+                <li><button>-</button></li>
+                <li>0</li>
+                <li><button>+</button></li>
+                <li>€0.00</li>
+            </ul>
+            <ul>
+                <li>I already have a ticket Free</li>
+                <li><button>-</button></li>
+                <li>0</li>
+                <li><button>+</button></li>
+                <li>€0.00</li>
+            </ul>
+            <ul>
+                <li>Total
+                </li>
+                <li>€0.00<li></li>
+            </ul>
+        </section>
+        <section>
+            <h4>Visiting safely</h4>
+            <p>All areas of the museum are open. We have set out three main routes,
+                which are clearly signposted in the museum. You are also welcome to 
+                choose your own route, of course, but please be sure to follow the arrows 
+                indicating the one-way routes.</p>
+        </section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AOqdCNjq-x0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
     </main>
     <footer>
-
-    </footer>
+    <h2>
+        VISITOR INFORMATION
+    </h2>
+    <p>
+        Open daily 9h to 17th <br>
+        Museumstraat 1,Amsterdam
+    </p>
+    <ul>
+        <li><a href="">About us</a></li>
+        <li><a href=""> Press</a></li>
+        <li><a href=""> Careers</a></li>
+        <li><a href=""> Contact</a></li>
+    </ul>
+</footer>
+<script src="scripts/script.js"></script>
 </body>
 
 </html>
