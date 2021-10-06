@@ -102,7 +102,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 Door HCI had ik niet al te veel kunnen doen. Ik heb hier uiteindelijk toch 
-aan kunnen werken
+aan kunnen werken. Ik ben hierna begonnen met mijn tweede pagina, hier heb ik een start aan gemaakt: tekst dat erin hoort etc. is al gedaan. 
 
 
 ### Agenda voor meeting
@@ -118,10 +118,10 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- inplaats van buttons in de navigatie te gebruiken er li's van te maken.
+- de FREE ENTRY geen p te geven maar een strong van maken
+- met grid misschien het tabel te maken.
+- opschonen van HTML; classes wegwerken
 
 </details>
 
@@ -134,31 +134,17 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
 
-### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+#### Beperkingen
+Doormiddel met een shockapparaat kon je kijken hoe mensen met parkinson functioneren op onze sites. Ik merkte bij andere dat het gebruik van de muis lastig was.
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+Daarom is het toegankelijk maken van de site met toetsen een oplossen. Hiermee hoeft er alleen op een toets gedrukt te worden en kan de gebruiker gemakkelijk door de site heen. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Met de brillen konden we zien hoe eht was voor mensen om: 
+- wazig te zien
+- kleurenblind te zijn (gele tinten kunnen zien)
+- geblurd/ fissie niet 100 
 
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Hiermee kon er rekening gehouden worden met tekst niet te klein te maken of meer op te laten vallen. Ook met contrast rekening te houden.
 
 </details>
 
@@ -172,7 +158,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Alles behalve het tabel was gelukt. Inplaats van grid flex gebruikt waardoor er rijen zijn inplaats van kolommen. 
 
 
 ### Agenda voor meeting
@@ -188,10 +174,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Classes zijn goed weggewerk doormiddel van nth-of-type 
+- header moest position absolute.
 
 </details>
 
@@ -205,7 +189,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het maken van  het tabel nam tijd maar het was me uiteindelijk gelukt te fixen.  Ik ben blij met hoe de slider eruit ziet, waar ik moeite mee heb gehad is de light modus die ik bij de tickets wilde toepassen.
 
 ### Screenshot(s)
 
@@ -224,8 +208,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-library.com%2Ficon%2Fwhite-hamburger-menu-icon-24.html&psig=AOvVaw0seRu6IPdSyna4K_NWCEKo&ust=1632580091840000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDH0vbol_MCFQAAAAAdAAAAABAD
+
+2. https://commons.wikimedia.org/wiki/File:VisualEditor_-_Icon_-_Search-big_-_white.svg
 
 </details>
