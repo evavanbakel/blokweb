@@ -76,15 +76,6 @@ Het plaatsen van de images; tussen elk plaatje kwam er een witte regel te staan,
 Ik kreeg als feedback te horen juist classes te gebruiken bij de bg van de sections. 
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -107,16 +98,6 @@ Door HCI had ik niet al te veel kunnen doen. Ik heb hier uiteindelijk toch
 aan kunnen werken. Ik ben hierna begonnen met mijn tweede pagina, hier heb ik een start aan gemaakt: tekst dat erin hoort etc. is al gedaan. 
 
 Mijn eerste pagina had ik voornamelijk al, behalve de footer wat ik later toegevoegd heb. Ik had dit zelf als niet perse functionele gedeelte gemarkeerd maar dit kon er opzich ook wel bij.
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
@@ -167,20 +148,11 @@ De conclusies waar ik op kwam met mijn site was dat mijn site opzich wel makkeli
 ### Stand van zaken
 Alles behalve het tabel was gelukt. Inplaats van grid flex gebruikt waardoor er rijen zijn inplaats van kolommen. Ik heb veel lopen knoeien bij het tabel, maar na het goed te bekijken heb ik het zo op kunnen lossen. 
 
-<img src="images/tabel.png" width="375px" alt="screenshot van html mijn tabel">
+<img src="images/tabel.png" width="375px" height="max" alt="screenshot van html mijn tabel">
 
 Hierin is te zien dat ik elk element in een li heb geplaatst en vervolgens goed geordend hebt om zo een tabel te creeëren. 
 
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
