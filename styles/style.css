@@ -61,6 +61,7 @@ table {
     --bg-color:black; 
     --button-color: #d55140;
     --tabel-text-color: #a2abad;
+    --menu-bg-color: #40474f;
 }
 
 body {
@@ -83,6 +84,7 @@ section{
 
 /*--------burger menu BRON: https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-library.com%2Ficon%2Fwhite-hamburger-menu-icon-24.html&psig=AOvVaw0seRu6IPdSyna4K_NWCEKo&ust=1632580091840000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDH0vbol_MCFQAAAAAdAAAAABAD---------*/
 
+/*
 nav ul li:first-of-type{
     position: absolute;
     z-index: 1;
@@ -100,11 +102,190 @@ nav ul li:first-of-type:hover {
     background: var(--bg-color);
     transition-delay: 1s;
 }
+*/
+/*------------hamburger menu BRON: https://codepen.io/AlexandreCMD/pen/bGRxNMd-------------*/
+.menu {
+    padding-top: 1em;
+    opacity: 0;
+    transform: translateX(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: var(--menu-bg-color);
+    
+  }
+ 
+  /*-------- Kruisje menu -------- */ 
+  .menu li:first-of-type button{
+      width: 3.2em;
+      height: 3.2em;
+      position: fixed;
+      top: 0;
+      background: none;
+      border: none;
+      margin-top: 1em;
+  }
+
+  .menu li:first-of-type button img{
+      width: 6em;
+      height: 6em;
+      justify-content: center;
+      margin-top: -.5em;
+      margin-left: -2.5em;
+  }
+
+  /*------------- -------------*/ 
+  
+/*------- tekst dat in het hamburgermenu zit opmaak ------*/
+.menu li {
+    font-size: .5em;
+    color: var(--text-color);
+    margin-left: 2em;
+}
+
+  .visible {
+    opacity: 1;
+    transform: translateX(0%);
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .icon {
+      z-index: 3;
+      position: absolute;
+      background: none;
+      border: none;
+  }
+
+  /*---------------------afmetingen hamburgermenu afbeelding -----------------*/
+.icon img{
+    width: 4em;
+    height: 4em;
+    margin-top: 1em ;
+}
+
+/*------ menu eerste regel eisen --------*/
+.menu li a h4 {
+    font-size: 1em;
+}
+
+/*----------  Go to ... (in menu)----------*/ 
+.menu li a strong {
+    font-weight: bold;
+    
+}
+
+.menu li:nth-of-type(2){
+    margin-top: 3em;
+    margin-left: 2.5em;
+}
+/*------------- visit tot research -------------*/
+.menu li:nth-of-type(3){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+    row-gap: 2em;
+    margin-top: 3em;
+    opacity: 60%;
+}
+/*---------------- Go to tot accessibility ------------------*/
+.menu li:nth-of-type(4){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+    row-gap: 2em;
+    margin-top: 3em;
+}
+
+/*--------------------Logo rijksmuseum in hamburgermenu---------------*/
+.menu li:nth-of-type(5){
+    width: 6em;
+    height: 3.5em;
+    margin-top: 2em;
+}
+
+.menu li:nth-of-type(6){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.menu li:nth-of-type(6) img{
+    width: 5em;
+    height: 2em;
+    padding: .5em;
+}
+
+ /*-------- zoekpagina menu-----------*/
+.search {
+    padding-top: 1em;
+    opacity: 0;
+    transform: translateX(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: var(--menu-bg-color);
+}
+
+.search button {
+    background: none;
+    border: none;
+    position: absolute;
+}
+.search .kruisje img {
+    width: 3em;
+    height: 3em;
+    top: 1;
+}
+/*--------------- button voor het zoekicoontje-------------------*/
+.zoekicon {
+    z-index: 3;
+    position: absolute;
+    background: none;
+    border: none;
+}  
+
+
+.kruisje{
+    width: 3.2em;
+    height: 3.2em;
+    position: fixed;
+    top: 0;
+    background: none;
+    border: none;
+    margin-top: 1em;
+} 
+
+.zoekicon img{
+    width: 3em;
+    height: 3em;
+    z-index: 5;
+    margin-left: 5em;
+    margin-top: 1.5em;
+
+}
+
+.aanwezig {
+    opacity: 1;
+    transform: translateX(0%);
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+  } 
 
 /*----- vergrootglas zoek icon BRON: https://commons.wikimedia.org/wiki/File:VisualEditor_-_Icon_-_Search-big_-_white.svg----*/ 
 
-
-nav ul li:nth-of-type(2){
+nav ul:nth-of-type(2) li:first-of-type{
     position: absolute;
     z-index: 1;
     margin-left: 2.5em;
@@ -113,12 +294,16 @@ nav ul li:nth-of-type(2){
     border: none;
 }
 
-nav ul li:nth-of-type(2):hover {
+nav ul:nth-of-type(2) li:first-of-type:hover {
     background: var(--bg-color);
 }
 
+nav ul:nth-of-type(2) img{
+    width: 1em;
+    height: 1em;
+}
 /*------ Tickets button -------*/
-nav ul li:nth-of-type(3) {
+nav ul:nth-of-type(2) li:nth-of-type(2) a{
     position: absolute;
     z-index: 1;
     right: 1.3em;
@@ -128,37 +313,19 @@ nav ul li:nth-of-type(3) {
     font-size: .5em;
     color: var(--text-color);
     border: none;
-    overflow:auto;
 
 }
 
-nav ul li:nth-of-type(3):hover {
+nav ul li:nth-of-type(2) a:hover {
     background-color: var(--text-color);
     color: var(--bg-color);
     transform: var(--text-color);
 }
 
-
-/*----- light mode ------*/ 
-nav ul li:nth-of-type(4){
-    position: absolute;
-    z-index: 1;
-    margin-left: 4.5em;
-    margin-top: 1em;
-    
-} 
-
-nav ul li:nth-of-type(5){
-    position: absolute;
-    z-index: 1;
-    margin-left: 6em;
-    margin-top: .9em;
-} 
-
 /*------------- afbeeldingen achtergrond ------------*/
 /*---------nachtwacht 1 --------*/
 .voorpagina section:first-of-type {
-    background-image: url(../images/nachtwacht1.webp);   
+    background-image: url("../images/nachtwacht1.webp"); 
     height: 100vh;
     width: 100%;
     background-position: top center;
@@ -167,7 +334,7 @@ nav ul li:nth-of-type(5){
 
 /*-------meisje met hoed 2 ---------*/
 .voorpagina section:nth-of-type(2){
-    background-image: url(../images/meisje2.webp);
+    background-image: url("../images/meisje2.webp");
     height: 100vh;
     width: 100%;
     background-position: top center;
@@ -181,7 +348,7 @@ nav ul li:nth-of-type(5){
 
 /*---- vrouw wijst schilderij aan----*/
 .voorpagina section:nth-of-type(3){
-    background-image: url(../images/schilderij3.webp);
+    background-image: url("../images/schilderij3.webp");
     height: 100vh;
     width: 100%;
     background-position: top center;
@@ -190,7 +357,7 @@ nav ul li:nth-of-type(5){
 
 /*--------- stoel kunstwerk ---------*/
 .voorpagina section:nth-of-type(4){
-    background-image: url(../images/schilderijstoel.webp);
+    background-image: url("../images/schilderijstoel.webp");
     height: 50vh;
     max-width: 100%;
     background-position: top center;
@@ -199,7 +366,7 @@ nav ul li:nth-of-type(5){
 
 /*------ meisje kijkt naar schilderij -------*/
 section:nth-of-type(5){
-    background-image: url(../images/meisje.webp);
+    background-image: url("../images/meisje.webp");
     height: 50vh;
     width: 100%;
     background-position: top center;
@@ -208,7 +375,7 @@ section:nth-of-type(5){
 
 /*----- man kunstwerk blauw geel -------*/
 .voorpagina section:nth-of-type(6){
-    background-image: url(../images/man.webp);
+    background-image: url("../images/man.webp");
     height: 100vh;
     width: 100%;
     background-position: top center;
@@ -229,7 +396,7 @@ section:nth-of-type(6) strong{
 }
 /*----------- bos kunstwerk -----------*/
 .voorpagina section:nth-of-type(7){
-    background-image: url(../images/natuur.webp);
+    background-image: url("../images/natuur.webp");
     height: 100vh;
     width: 100%;
     background-position: top center;
@@ -304,10 +471,10 @@ footer>p{
     line-height: 1.3em;
 
 }
-footer ul {
+footer ul:first-of-type {
     margin-top: 3em;
 }
-footer ul li{
+footer ul:first-of-type li{
     margin: 1.5em;
     font-size: .5em;
 }
@@ -318,6 +485,79 @@ a {
     color: var(--text-color);
 
 }
+
+/*---------------  doneer knop en nieuwsbrief knop in footer  --------------*/
+
+footer ul:nth-of-type(2){
+    display: grid;
+    width: 6em;
+    text-align: center;
+    margin-left: .5em;
+}
+
+footer ul:nth-of-type(2) button{
+    font-size: .5em;
+    background: rgb(54, 53, 53);
+    padding: 1em;
+    border-radius: 3%;
+    color: var(--text-color);
+    width: 11em;
+    border: none;
+
+}
+footer ul:nth-of-type(2) li{
+    margin-top: .5em;
+}
+footer ul:nth-of-type(2) li:nth-of-type(3) img{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    opacity: 30%;
+    top: 11.7em;
+    left: 7.5em;
+}
+/*------------------ social media icons in footer ---------------------*/
+footer ul:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+    margin: .7em;
+}
+
+
+footer ul:nth-of-type(3) img {
+    width: 0.7em;
+    height: 0.7em;
+}
+
+
+  
+/*-------------- sponsoren logos in footers ---------------*/
+footer ul:nth-of-type(4) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: .7em;
+    margin-top: 1.5em;
+}
+
+footer ul:nth-of-type(4) img {
+    width: 3em;
+    height: 1em;
+    opacity: 60%;
+}
+
+/*----------- linkjes naar eisen en voorwaarden ---------*/
+footer ul:nth-of-type(5) {
+    margin-top: 3em;
+    display: flex;
+    opacity: 60%;
+}
+
+
+footer ul:nth-of-type(5) li{
+    font-size: .5em;
+    margin: .5em;
+}
+
 /*----------------------------- tickets pagina ----------------------------*/
 
 
@@ -366,7 +606,7 @@ a {
     margin-left: 1em;
 }
 
-/*--??? grid fixen---*/
+/*---??? grid fixen---*/
 .tickets section:nth-of-type(3) ul{
     display: grid;
     font-size: .5em;
@@ -409,6 +649,7 @@ a {
 .tickets section:nth-of-type(4) li{
     flex-basis: 20%;
 }
+
 /*---- - knopje -----*/
 .tickets section:nth-of-type(4) li:nth-of-type(2)>button{
     margin-left: 4em;
@@ -424,6 +665,7 @@ a {
     opacity: 100%;
     transition: .2s;
 }
+
 /*---- number 0 -----*/ 
 .tickets section:nth-of-type(4) li:nth-of-type(3){
     color: var(--tabe-text-color);
