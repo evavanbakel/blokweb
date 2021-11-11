@@ -5,18 +5,8 @@ http://meyerweb.com/eric/tools/css/reset/
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -25,8 +15,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -38,8 +27,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after,q:before, q:after {
 	content: '';
 	content: none;
 }
@@ -70,39 +58,16 @@ body {
     background-color: #40474f; 
     transition: all 1s;
 }
-.light-mode{
-    background: white;
-    color:black;
-}
-
 
 section{
     position: relative;
     
 }
 
-
-/*--------burger menu BRON: https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-library.com%2Ficon%2Fwhite-hamburger-menu-icon-24.html&psig=AOvVaw0seRu6IPdSyna4K_NWCEKo&ust=1632580091840000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDH0vbol_MCFQAAAAAdAAAAABAD---------*/
-
-/*
-nav ul li:first-of-type{
-    position: absolute;
-    z-index: 1;
-    margin-left: .8em;
-    margin-top: 1em;
+/*----Hierdoor staat de image boven het scherm------*/
+section:first-of-type{
+    margin-top: -2.1em;
 }
-
-nav ul li a img{
-    width: 1em;
-    height: 1em;
-}
-
-
-nav ul li:first-of-type:hover {
-    background: var(--bg-color);
-    transition-delay: 1s;
-}
-*/
 /*------------hamburger menu BRON: https://codepen.io/AlexandreCMD/pen/bGRxNMd-------------*/
 .menu {
     padding-top: 1em;
@@ -117,9 +82,8 @@ nav ul li:first-of-type:hover {
     background-color: var(--menu-bg-color);
     
   }
- 
   /*-------- Kruisje menu -------- */ 
-  .menu li:first-of-type button{
+  .kruis{
       width: 3.2em;
       height: 3.2em;
       position: fixed;
@@ -143,7 +107,7 @@ nav ul li:first-of-type:hover {
 .menu li {
     font-size: .5em;
     color: var(--text-color);
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
   .visible {
@@ -171,6 +135,7 @@ nav ul li:first-of-type:hover {
 /*------ menu eerste regel eisen --------*/
 .menu li a h4 {
     font-size: 1em;
+    margin-top: 5em;
 }
 
 /*----------  Go to ... (in menu)----------*/ 
@@ -205,11 +170,12 @@ nav ul li:first-of-type:hover {
 
 /*--------------------Logo rijksmuseum in hamburgermenu---------------*/
 .menu li:nth-of-type(5){
-    width: 6em;
-    height: 3.5em;
     margin-top: 2em;
+    width: 4em;
+    height: 2.5em;
 }
 
+/*----- sponsoren in hamburgmenu ---------*/ 
 .menu li:nth-of-type(6){
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -242,30 +208,83 @@ nav ul li:first-of-type:hover {
     border: none;
     position: absolute;
 }
+
+/*-------- img van kruisje bij zoekmenu---------*/
 .search .kruisje img {
-    width: 3em;
-    height: 3em;
+    width: 5em;
+    height: 5em;
     top: 1;
 }
-/*--------------- button voor het zoekicoontje-------------------*/
- .zoekicon {
-    z-index: 3;
-    position: absolute;
-    background: none;
-    border: none;
-}   
 
-
+/*--------- het kruisje bij zoekmenu -----------*/
 .kruisje{
-    width: 3.2em;
-    height: 3.2em;
+    width: 4em;
+    height: 4em;
     position: fixed;
     top: 0;
     background: none;
     border: none;
     margin-top: 1em;
 } 
+/*-------------- "SEARCH" boven zoekbalk -------------*/
+.search li h5 {
+    color: var(--text-color);
+    margin-top: 3em;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
 
+/*------------ searchbar in zoekmenu ------------*/
+.search li:nth-of-type(3) input{
+    width: 70%;
+    background: none;
+    border:none;
+    color: var(--tabel-text-color);
+    margin-left: 1em;
+    font-size: .6em;
+    margin-top: 1.5em;
+}
+
+/*------------ button met search bij zoekbalk ----------*/
+.search li:nth-of-type(4) button{
+    background: var(--tabel-text-color);
+    color: var(--text-color);
+    font-size: .5em;
+    padding: 1em;
+    border-radius: 5%;
+    margin-left: 17.5em;
+    top: 12em;
+    opacity: 80%;
+}
+
+/*------ Go to accessibiity in zoekmenu -------*/ 
+.search li:nth-of-type(5){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+    row-gap: 2em;
+    margin-top: 3em;
+    font-size: .5em;
+    margin-left: 1.5em;
+}
+/*--------------- button voor het zoekicoontje-------------------*/
+ .zoekicon {
+    z-index: 3;
+    background: none;
+    border: none;
+    position: relative;
+   width: 0;
+   height: 0;
+}    
+
+.zoekicon:focus {
+        background:var(--button-color);
+        text-decoration:underline;
+        text-decoration-thickness:2px;
+        text-underline-offset: 2px;
+    
+}
 .zoekicon img{
     width: 3em;
     height: 3em;
@@ -282,26 +301,6 @@ nav ul li:first-of-type:hover {
     overflow-x: hidden;
     height: 100%;
   } 
-
-/*----- vergrootglas zoek icon BRON: https://commons.wikimedia.org/wiki/File:VisualEditor_-_Icon_-_Search-big_-_white.svg----*/ 
-
-/* nav ul:nth-of-type(2) li:first-of-type{
-    position: absolute;
-    z-index: 1;
-    margin-left: 2.5em;
-    margin-top: .9em;
-    background: none;
-    border: none;
-}
-
-nav ul:nth-of-type(2) li:first-of-type:hover {
-    background: var(--bg-color);
-}
-
-nav ul:nth-of-type(2) img{
-    width: 1em;
-    height: 1em;
-} */
 
 /*------ Tickets button -------*/
 nav>a{
@@ -549,8 +548,10 @@ footer ul:nth-of-type(4) img {
 /*----------- linkjes naar eisen en voorwaarden ---------*/
 footer ul:nth-of-type(5) {
     margin-top: 3em;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     opacity: 60%;
+    width: 100%;
 }
 
 
