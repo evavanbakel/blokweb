@@ -56,6 +56,10 @@ tickets pagina
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
+Voor de breakdownschetsen heb ik een gedeelte van de footer weggehouden en verder de gehele voorpagina gebruikt. Dit moet ik eerst goed uitwerken voordat ik verder kan.
+De site bestaat uit gehele afbeeldingen waar op geklikt kan worden, hierbij zitten er kleine stukjes tekst met meer informatie erover. Verder staat onderin de footer sponsoren en linkjes die daarbij horen. 
+
+Het lastige is voor de tweede pagina het tabel dat erin hoort, ik weet niet heel goed hoe ik dat ga doen maar daar kom ik nog wel achter. 
 ### de hele pagina: 
 <img src="images/breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
@@ -71,9 +75,14 @@ tickets pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
+Toen we op school waren wilde ik het probleem fixen waar ik mee zat:
 Het plaatsen van de images; tussen elk plaatje kwam er een witte regel te staan,  na hulp te vragen heb ik dit anders kunnen oplossen door de sections een background te geven inplaats van images in de sections te plaatsen. Ook wist ik niet of een site zonder H1 toegestaan was maar na fb kwam ik erachter dat dit mocht zodat ik de logo er gewoon in kan plaatsen. 
 
+Ik had eerst om hulp gevraagd aan klasgenootjes die bij mij aan de tafel zaten en vervolgens nog andere groepjes , maar die wisten er ook niet bepaald veel van waarom het streepje er zat. Uiteindelijk ben ik toch naar de docent gestapt waarna mijn probleem wel snel opgelost was. 
+
 Ik kreeg als feedback te horen juist classes te gebruiken bij de bg van de sections. 
+
+PS: dit heb ik vervolgens weggewerkt aangezien dit weggewerkt kon worden met nth-of-type. Het stond er anders dubbel in en dat was niet nodig. 
 
 
 
@@ -99,9 +108,11 @@ aan kunnen werken. Ik ben hierna begonnen met mijn tweede pagina, hier heb ik ee
 
 Mijn eerste pagina had ik voornamelijk al, behalve de footer wat ik later toegevoegd heb. Ik had dit zelf als niet perse functionele gedeelte gemarkeerd maar dit kon er opzich ook wel bij.
 
-
+PS: ik heb HCI  gehaald trouwens :)
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
+
+Bij het gesprek met de studentenassistent kwam ik op het volgende:
 
 - inplaats van buttons in de navigatie te gebruiken er li's van te maken.
 - de FREE ENTRY geen p te geven maar een strong van maken
@@ -150,13 +161,15 @@ Alles behalve het tabel was gelukt. Inplaats van grid flex gebruikt waardoor er 
 
 <img src="images/tabel.png" width="375px" height="max" alt="screenshot van html mijn tabel">
 
-Hierin is te zien dat ik elk element in een li heb geplaatst en vervolgens goed geordend hebt om zo een tabel te creeëren. 
+Hierin is te zien dat ik elk element in een li heb geplaatst en vervolgens goed geordend hebt om zo een tabel te creeëren. Het probleem wat ik hiervoor had was dat het niet recht en netjes naast elkaar kwam, maar na het hiermee op te lossen hoefde ik alleen de laatste en eerste positioneren om zo de gegevens goed te trekken.
 
 
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
+
+Hierbij had ik een gesprek met een studentassistent, hij meldde mij het volgende:
 
 - Classes zijn goed weggewerk doormiddel van nth-of-type 
 - header moest position absolute.
@@ -183,13 +196,14 @@ Hierna heb ik voor het herkansen een paar dingetjes gefixed:
 
 - De feedback heb ik verwerkt dat ik moest toepassen, zoals # toevoegen bij linkjes, de verdere kleine foutjes waar ik op moest letten zoals correct apostrofjes toevoegen. 
 
+Het hamburgermenu was nog niet werkende bij mij, het was alleen nog een plaatje. Dit heb ik voor de herkansing werkende gemaakt. Ook het zoekgedeelte was een afbeelding dat nu wel geheel werkt. 
+
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
 <img src="images/ss1.png" width="375px" height="max" alt="screenshot voorpagina rijksmuseum">
 <img src="images/ss2.png" width="375px" height="max" alt="screenshot ticketspagina tabel">
 <img src="images/ss3.png" width="375px" height="max" alt="screenshot footer afgemaakt">
-<img src="../images/ss4.png" width="375px" height="max" alt="screenshot searchmenu">
 </details>
 
 
