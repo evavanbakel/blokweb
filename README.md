@@ -189,7 +189,7 @@ hier screenshot(s) van je eindresultaat
 <img src="images/ss1.png" width="375px" height="max" alt="screenshot voorpagina rijksmuseum">
 <img src="images/ss2.png" width="375px" height="max" alt="screenshot ticketspagina tabel">
 <img src="images/ss3.png" width="375px" height="max" alt="screenshot footer afgemaakt">
-<img src="images/ss4.png" width="375px" height="max" alt="screenshot searchmenu">
+<img src="../images/ss4.png" width="375px" height="max" alt="screenshot searchmenu">
 </details>
 
 
