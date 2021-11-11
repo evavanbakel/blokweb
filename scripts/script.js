@@ -23,11 +23,11 @@
 
  var sluitButton = document.querySelector(".kruis");
 
-// var zoekMenu = document.querySelector(".search");
+var zoekMenu = document.querySelector(".search");
 
-// var zoekButton = document.querySelector(".zoekicon");
+var zoekButton = document.querySelector(".zoekicon");
 
-// var sluitZoeken = document.querySelector(".kruisje");
+var sluitZoeken = document.querySelector(".kruisje");
 
 
  // Click on menu Button
@@ -54,26 +54,26 @@
  }
 
  /*----------------------------------------------------------------------*/ 
-//  // Voor zoekpagina
+ // Voor zoekpagina
  
-//  zoekButton.addEventListener("click", toggleZoekpagina);
- 
- 
- 
-//  function toggleZoekpagina(){
- 
-//      zoekMenu.classList.add("aanwezig");
- 
-//  }
- 
-//  // sluiten van zoekpagina met .remove
-//  sluitZoeken.addEventListener("click", sluitZoekpagina);
+ zoekButton.addEventListener("click", toggleZoekpagina);
  
  
  
-//  function sluitZoekpagina(){
+ function toggleZoekpagina(){
  
-//      zoekMenu.classList.remove("aanwezig");
+     zoekMenu.classList.add("aanwezig");
  
-//  }
+ }
+ 
+ // sluiten van zoekpagina met .remove
+ sluitZoeken.addEventListener("click", sluitZoekpagina);
+ 
+ 
+ 
+ function sluitZoekpagina(){
+ 
+     zoekMenu.classList.remove("aanwezig");
+ 
+ }
  
