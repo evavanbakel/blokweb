@@ -248,12 +248,12 @@ nav ul li:first-of-type:hover {
     top: 1;
 }
 /*--------------- button voor het zoekicoontje-------------------*/
-.zoekicon {
+ .zoekicon {
     z-index: 3;
     position: absolute;
     background: none;
     border: none;
-}  
+}   
 
 
 .kruisje{
@@ -285,7 +285,7 @@ nav ul li:first-of-type:hover {
 
 /*----- vergrootglas zoek icon BRON: https://commons.wikimedia.org/wiki/File:VisualEditor_-_Icon_-_Search-big_-_white.svg----*/ 
 
-nav ul:nth-of-type(2) li:first-of-type{
+/* nav ul:nth-of-type(2) li:first-of-type{
     position: absolute;
     z-index: 1;
     margin-left: 2.5em;
@@ -301,9 +301,10 @@ nav ul:nth-of-type(2) li:first-of-type:hover {
 nav ul:nth-of-type(2) img{
     width: 1em;
     height: 1em;
-}
+} */
+
 /*------ Tickets button -------*/
-nav ul:nth-of-type(2) li:nth-of-type(2) a{
+nav>a{
     position: absolute;
     z-index: 1;
     right: 1.3em;
@@ -316,7 +317,7 @@ nav ul:nth-of-type(2) li:nth-of-type(2) a{
 
 }
 
-nav ul li:nth-of-type(2) a:hover {
+nav>a:hover {
     background-color: var(--text-color);
     color: var(--bg-color);
     transform: var(--text-color);
